@@ -2,12 +2,13 @@
 
 Summary:	Paperwork's backend
 Name:		python-%{module}
-Version:	2.1.2
+Version:	2.2.0
 Release:	1
 License:	GPL-3.0-or-later
 Group:		Development/Python
 URL:		https://pypi.org/project/paperwork-backend/
 Source0:	https://pypi.org/packages/source/p/%{module}/%{module}-%{version}.tar.gz
+Patch0:		python-paperwork-backend-2.2.0-fix_version_path.patch
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python%{pyver}dist(python-levenshtein)
 BuildRequires:	python%{pyver}dist(pip)
