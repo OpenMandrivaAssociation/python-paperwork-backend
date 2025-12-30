@@ -3,7 +3,7 @@
 Summary:	Paperwork's backend
 Name:		python-%{module}
 Version:	2.2.0
-Release:	2
+Release:	3
 License:	GPL-3.0-or-later
 Group:		Development/Python
 URL:		https://pypi.org/project/paperwork-backend/
